@@ -1,25 +1,22 @@
 package org.barclays;
-import junit.framework.Assert;
+
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
-import static junit.framework.Assert.assertTrue;
 
-public class MeasurementTest
-{
-    @Test
+public class MeasurementTest {
+    /*@Test
     public void shouldAddMeasurement() {
-        Measurement first = new Measurement(5, 80, 100);
-        Measurement second = new Measurement(0, 40, 100);
-        first.addMaterial(second);
-        assertEquals(6, first.getMeters());
-        assertEquals(20, first.getCentimeters());
+        Measurement first = new Measurement(5, 80, 1000, 1000);
+        Measurement second = new Measurement(0, 40, 1000, 1000);
+        Measurement result = first.add(second);
+        assertEquals(new Measurement(5, 120, 1000, 1000), result);
     }
 
     @Test
-    public void shouldCompareMeasurement() {
-        Measurement first = new Measurement(5, 80, 100);
-        Measurement second = new Measurement(4, 180, 100);
-        assertTrue(first.compareMaterial(second));
-    }
+    public void shouldBeTrueifLengthsareEqual() {
+        Measurement first = new Measurement(5, 80, 1000, 1000);
+        Measurement second = new Measurement(4, 1080, 1000, 1000);
+        assertEquals(first, second);
+    }*/
 }
