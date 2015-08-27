@@ -1,7 +1,9 @@
 package com.park;
 
-public class ParkingLotOwner implements ParkingLotObserver{
+public class SecurityPersonnel implements ParkingLotObserver {
+
     private boolean parkingLotIsFull = false;
+
 
     @Override
     public void parkingLotFullNotification() {
@@ -10,6 +12,6 @@ public class ParkingLotOwner implements ParkingLotObserver{
 
     @Override
     public void parkingLotHasSpaceNotification() {
-        parkingLotIsFull = false;
+
     }
 }
