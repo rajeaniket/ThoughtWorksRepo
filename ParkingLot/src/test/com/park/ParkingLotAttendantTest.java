@@ -42,4 +42,9 @@ public class ParkingLotAttendantTest {
         assertEquals(parkingLot1, attendant.assignMyParkingLot());
     }
 
+    @Test(expected = ParkingFullException.class)
+    public void shouldNotAssignAParkingLotWhichIsFull(){
+
+    }
+
 }

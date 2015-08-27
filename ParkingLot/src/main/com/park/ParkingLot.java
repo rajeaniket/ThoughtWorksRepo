@@ -38,7 +38,7 @@ public class ParkingLot {
         }
     }
 
-    private boolean hasParkingSpace() {
+    public boolean hasParkingSpace() {
         return cars.size() < capacity;
     }
 
