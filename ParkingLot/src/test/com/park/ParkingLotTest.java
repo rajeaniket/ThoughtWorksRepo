@@ -94,7 +94,7 @@ public class ParkingLotTest {
             parking.park(new Car(2));
             parking.park(new Car(4));
 
-        verify(mockedOwner, times(1)).parkingLotFullNotification();
+        verify(mockedOwner, times(0)).parkingLotFullNotification();
     }
 
     @Test
